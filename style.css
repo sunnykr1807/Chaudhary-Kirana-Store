@@ -1,0 +1,64 @@
+body{
+background:#f8f9fa;
+}
+
+.hero{
+padding:120px 20px;
+text-align:center;
+background:linear-gradient(
+45deg,
+#198754,
+#28a745
+);
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:bold;
+}
+
+.card img{
+height:200px;
+object-fit:cover;
+}
+
+.product-card{
+transition:.3s;
+}
+
+.product-card:hover{
+transform:translateY(-5px);
+}
+
+
+.product-card{
+    transition: 0.3s;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.product-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.product-card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+
+/* nav link */
+.nav-link{
+    color:#333;
+    margin:0 10px;
+}
+
+.nav-link:hover{
+    color:#198754;
+}
+
+.form-control-lg{
+    border-radius:30px;
+}
